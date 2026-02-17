@@ -1,0 +1,37 @@
+/* utility first */
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-column {
+  grid-auto-flow: column;
+}
+
+.grid-flow-column-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.text-2xl { /* text 2x extralarge*/
+  font: var(--txt-heading1);
+}
+
+.text-xl { /* text extralarge*/
+  font: var(--txt-heading2);
+}
+
+.text-lg { /* text large*/
+  font: var(--txt-heading3);
+}
+
+.text-sm { /* text small*/
+  font: var(--txt-small);
+}

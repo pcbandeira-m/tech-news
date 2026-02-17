@@ -1,0 +1,38 @@
+#navsup {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: solid 1px var(--stroke-color);
+}
+
+.menu-sanduiche, .busca {
+  font: var(--txt-heading2);
+  color: var(--text-color-primary);
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.title {
+  text-transform: uppercase;
+  font: var(--txt-heading1);
+  color: var(--brand-color-light);
+}
+
+#navmenu {
+  color: var(--text-color-secondary);
+  font: var(--txt-heading3);
+}
+
+#navmenu ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-bottom: solid 1px var(--stroke-color);
+}
+
+#navmenu ul {
+  list-style: none;
+}
